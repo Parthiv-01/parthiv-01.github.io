@@ -230,11 +230,11 @@ body {
 .about {
     position: relative;
     width: 80%;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 10% 0;
+    padding: 80px 10% 0;
 }
 
 .about-content {
@@ -243,6 +243,8 @@ body {
 }
 
 .about-img img {
+    position: relative;
+    right: 0%;
     max-width: 150px;
     border-radius: 50px;
     box-shadow: 0 0 20px #0ef;
@@ -254,9 +256,10 @@ body {
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
-    position: relative;
+    position: sticky;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 /* The actual timeline (the vertical ruler) */
